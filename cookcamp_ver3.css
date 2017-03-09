@@ -1,0 +1,390 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	margin: 0 auto;
+    width: 100%;	
+}
+
+#back_color{
+	width:100%;
+    margin-top: 25px;
+    border-top:solid 2px #dcdcdc;
+    border-bottom:solid 2px #dcdcdc;
+    background-color:#fafae1;
+}
+
+#main{
+	 width:940px;
+    margin:0 auto;
+}
+
+#main:after{
+	content: "."; 
+	display: block; 
+  	height: 0; 
+  	font-size:0;	
+  	clear: both; 
+  	visibility:hidden;		
+}
+
+p{
+    margin-top: 5px;
+    font-size: 15px;
+    line-height: 1em;
+	text-indent:1em;
+}
+
+.go_next{
+	float: right;
+    margin-left: 5px;
+    margin-top: -3px;
+	background-image:url(image/icon/arrow.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:20px;
+	
+}
+
+.go_next:after{
+ 	content: "."; 
+ 	display: block; 
+ 	height: 0; 
+ 	font-size:0;	
+ 	clear: both; 
+ 	visibility:hidden;	
+}
+
+.green{
+    color: #32cd32;
+}
+
+#clear:after{
+	content: "."; 
+ 	display: block; 
+ 	height: 0; 
+ 	font-size:0;	
+ 	clear: both; 
+ 	visibility:hidden;		
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+
+/*---- header  ----*/
+header {
+   width: 940px;
+    margin: 0 auto;
+	margin-top: 5px;
+    height : 80px;
+}
+
+header .clear:after{
+  content: "."; 
+  display: block; 
+  height: 0; 
+  font-size:0;	
+  clear: both; 
+  visibility:hidden;
+}
+
+header #kensaku{
+    margin-right: 10px;
+    width:180px;
+    border-color: #ff7f50;
+}
+
+header .under_logo{
+	clear:both;
+    color: #ff7f50;
+    top: 45px;
+    position: absolute;
+}
+
+header li{
+	float:left;
+	width:170px;
+    height:30px;
+    text-align: center;
+	list-style-type:none;
+}
+
+header li:nth-child(even){
+    border-left: 1px solid #a9a9a9;
+	border-right: 1px solid #a9a9a9;
+}
+
+
+/*-------nav--------*/
+nav{
+    width:160px;
+    float: left;
+}
+
+nav .zero_margin{
+    margin-left:0px;
+}
+
+nav ul{
+	margin:0px;
+	padding:0px;	
+}
+
+nav li{
+	background-image:url(image/icon/arrow.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+	width:139px;
+    height:25px;
+    padding : 5px 0px;
+    background-color:white;
+    border: solid 1px #dcdcdc;
+	list-style-type:none;
+	padding-left:20px;
+}
+
+nav .under{
+	border-bottom-left-radius:1em;
+	border-bottom-right-radius:1em;
+	margin-bottom:15px;
+}
+
+nav .roof{
+	width: 130px;
+    height: 30px;
+    color:white;
+    background-color: #ff7f50;
+    margin-top: -5px;
+    line-height:30px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+	background-image:url(image/icon/dish.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:30px;
+}
+
+/*------article-------*/
+article{
+    float: left;
+    width: 620px;
+    margin-left:10px;
+}
+
+/*--new_menu---*/
+#new_menu{
+    margin: 10px;
+    width:610px;
+}
+
+#new_menu:after{
+  content: "."; 
+  display: block; 
+  height: 0; 
+  font-size:0;	
+  clear: both; 
+  visibility:hidden;	
+}
+
+#new_menu #wrap{
+    width: 600px;
+    height: 100px;
+    background-color: white;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+	margin-top: -15px;
+	padding:5px;
+}
+
+#new_menu .box{
+    margin: 5px;
+    width: 110px;
+    height: 80px;
+    font-size: 12px;
+    text-align: center;
+    float:left;
+}
+
+#new_menu .roof{
+    height: 30px;
+    color:white;
+    background-color: #ff7f50;
+    margin-top: 10px;
+    line-height:30px;
+    font-size:16px;
+    font-weight:normal;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+	background-image:url(image/icon/dish.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:30px;
+}
+
+/*---washoku---*/
+#washoku{
+    margin: 10px;
+    width:610px;
+}
+
+#washoku .roof{
+    height: 32px;
+    color:white;
+    background-color: #ff7f50;
+    margin-top: 10px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+	background-image:url(image/icon/dish.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:30px;
+	line-height:30px;
+    font-size:16px;
+    font-weight:normal;
+}
+
+#washoku #wrap{
+     width: 600px;
+    height: 190px;
+    background-color: white;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+	margin-top:-15px;
+	padding:5px;
+}
+
+#washoku .left_img{
+   float: left;
+   margin:5px;
+   margin-right:10px;
+}
+
+#washoku .info{
+    padding: 0px 5px;	
+}
+
+#washoku .go_next{
+	margin-top:-30px;
+}
+
+#washoku .under_info{
+    margin-top:-5px;
+	font-size: 15px;
+}
+
+
+
+/*-----advice------*/
+#advice{
+    width: 610px;
+    margin: 10px;
+	font-size: 15px;
+}
+
+#advice .roof{
+    height: 32px;
+    color:white;
+    background-color: #ff7f50;
+    margin-top: 10px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+	background-image:url(image/icon/dish.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:30px;
+	line-height:30px;
+    font-size:16px;
+    font-weight:normal;
+}
+
+#advice #wrap{
+    width: 600px;
+    height: 230px;
+    background-color: white;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+	padding:5px;
+	margin-top:-15px;
+}
+
+#advice .left_img{
+	float:left;
+	margin-top:5px;
+}
+
+
+#advice .title{
+    font-size: 15px;
+    color: #8b4513;
+    font-weight:normal;
+    margin-bottom:0px;
+    margin-top:5px;
+}
+
+#advice .go_next{
+	margin-top:-8px;	
+}
+
+
+/*-----aside----*/
+aside img{
+    margin-top: 10px;
+	float:right;
+}
+
+aside img:after{
+  	content: "."; 
+  	display: block; 
+  	height: 0; 
+  	font-size:0;	
+  	clear: both; 
+  	visibility:hidden;	
+}
+
+
+/*-----fooder-----*/
+footer{
+    width: 100%;
+    text-align:center;
+    font-size: 12px
+}
+
+footer #wrap{
+    width:940px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+footer .center{
+    width:400px;
+    height:20px;
+    margin: 0 auto;
+}
+
+footer li{
+	height:20px;
+    float: left;	
+	padding-left:5px;
+	padding-right:5px;
+	margin-bottom:-10px;
+	list-style-type:none;
+	border-right:1px dotted #a9a9a9;
+}
+
+footer li:nth-child(4){
+	border-right:none;
+}
+
+footer ul:after{
+	content:".";
+	display:block;
+	height:0px;
+	font-size:0px;
+	clear:both;
+	visibility:hidden;	
+}
